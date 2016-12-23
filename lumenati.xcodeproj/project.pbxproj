@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D00B66691E0B157A00BC7C14 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00B66681E0B157A00BC7C14 /* MapViewController.swift */; };
+		D00B666F1E0B365300BC7C14 /* LoginViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00B666E1E0B365300BC7C14 /* LoginViewControllerDelegate.swift */; };
+		D00B66711E0B6E2C00BC7C14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00B66701E0B6E2C00BC7C14 /* Main.storyboard */; };
+		D00B66731E0B7C5A00BC7C14 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00B66721E0B7C5A00BC7C14 /* User.swift */; };
+		D00B66751E0B807E00BC7C14 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00B66741E0B807E00BC7C14 /* Marker.swift */; };
+		D0336D9F1E0CBB4800B273FB /* MyMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0336D9E1E0CBB4800B273FB /* MyMapViewController.swift */; };
+		D0336DA11E0CDFD800B273FB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0336DA01E0CDFD800B273FB /* Default-568h@2x.png */; };
+		D0336DA31E0CE3C700B273FB /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0336DA21E0CE3C700B273FB /* Group.swift */; };
+		D0336DA71E0CEDEB00B273FB /* CustomGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0336DA61E0CEDEB00B273FB /* CustomGroupTableViewCell.swift */; };
+		D0336DA91E0CFD9100B273FB /* CustomMarkerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0336DA81E0CFD9100B273FB /* CustomMarkerTableViewCell.swift */; };
+		D048155C1E0CA8110089094E /* MarkerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D048155B1E0CA8110089094E /* MarkerInfoViewController.swift */; };
+		D048155E1E0CAB060089094E /* MarkerInfoViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D048155D1E0CAB060089094E /* MarkerInfoViewControllerDelegate.swift */; };
+		D04815601E0CADC00089094E /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D048155F1E0CADC00089094E /* CancelButtonDelegate.swift */; };
+		D0C90CD01E0A165A000E7422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C90CCF1E0A165A000E7422 /* AppDelegate.swift */; };
+		D0C90CD21E0A165A000E7422 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C90CD11E0A165A000E7422 /* LogInViewController.swift */; };
+		D0C90CD81E0A165A000E7422 /* lumenati.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0C90CD61E0A165A000E7422 /* lumenati.xcdatamodeld */; };
+		D0C90CDA1E0A165A000E7422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C90CD91E0A165A000E7422 /* Assets.xcassets */; };
+		D0C90CDD1E0A165A000E7422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C90CDB1E0A165A000E7422 /* LaunchScreen.storyboard */; };
+		D181E92F1A07DAAD9D4F45C1 /* Pods_lumenati.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B9958E68F8043ACF59AECB /* Pods_lumenati.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7FF4410290CE34D175C2D405 /* Pods-lumenati.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lumenati.release.xcconfig"; path = "Pods/Target Support Files/Pods-lumenati/Pods-lumenati.release.xcconfig"; sourceTree = "<group>"; };
+		B1B94C6BC785E6A7964A79EB /* Pods-lumenati.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lumenati.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lumenati/Pods-lumenati.debug.xcconfig"; sourceTree = "<group>"; };
+		B3B9958E68F8043ACF59AECB /* Pods_lumenati.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lumenati.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00B66681E0B157A00BC7C14 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D00B666E1E0B365300BC7C14 /* LoginViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewControllerDelegate.swift; sourceTree = "<group>"; };
+		D00B66701E0B6E2C00BC7C14 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D00B66721E0B7C5A00BC7C14 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D00B66741E0B807E00BC7C14 /* Marker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
+		D0336D9E1E0CBB4800B273FB /* MyMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMapViewController.swift; sourceTree = "<group>"; };
+		D0336DA01E0CDFD800B273FB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D0336DA21E0CE3C700B273FB /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		D0336DA61E0CEDEB00B273FB /* CustomGroupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomGroupTableViewCell.swift; sourceTree = "<group>"; };
+		D0336DA81E0CFD9100B273FB /* CustomMarkerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMarkerTableViewCell.swift; sourceTree = "<group>"; };
+		D048155B1E0CA8110089094E /* MarkerInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerInfoViewController.swift; sourceTree = "<group>"; };
+		D048155D1E0CAB060089094E /* MarkerInfoViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerInfoViewControllerDelegate.swift; sourceTree = "<group>"; };
+		D048155F1E0CADC00089094E /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		D0C90CCC1E0A165A000E7422 /* lumenati.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lumenati.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C90CCF1E0A165A000E7422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0C90CD11E0A165A000E7422 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		D0C90CD71E0A165A000E7422 /* lumenati.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lumenati.xcdatamodel; sourceTree = "<group>"; };
+		D0C90CD91E0A165A000E7422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0C90CDC1E0A165A000E7422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0C90CDE1E0A165A000E7422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0C90CC91E0A1659000E7422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D181E92F1A07DAAD9D4F45C1 /* Pods_lumenati.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1FE7A04E4A4DC61D6B4B45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3B9958E68F8043ACF59AECB /* Pods_lumenati.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0C90CC31E0A1659000E7422 = {
+			isa = PBXGroup;
+			children = (
+				D0336DA01E0CDFD800B273FB /* Default-568h@2x.png */,
+				D0C90CCE1E0A165A000E7422 /* lumenati */,
+				D0C90CCD1E0A165A000E7422 /* Products */,
+				DFCEE3B2E9E80F64DCFD24DF /* Pods */,
+				AA1FE7A04E4A4DC61D6B4B45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0C90CCD1E0A165A000E7422 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0C90CCC1E0A165A000E7422 /* lumenati.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0C90CCE1E0A165A000E7422 /* lumenati */ = {
+			isa = PBXGroup;
+			children = (
+				D0C90CCF1E0A165A000E7422 /* AppDelegate.swift */,
+				D0C90CD11E0A165A000E7422 /* LogInViewController.swift */,
+				D00B66681E0B157A00BC7C14 /* MapViewController.swift */,
+				D0336DA61E0CEDEB00B273FB /* CustomGroupTableViewCell.swift */,
+				D0336DA81E0CFD9100B273FB /* CustomMarkerTableViewCell.swift */,
+				D0336D9E1E0CBB4800B273FB /* MyMapViewController.swift */,
+				D048155B1E0CA8110089094E /* MarkerInfoViewController.swift */,
+				D048155D1E0CAB060089094E /* MarkerInfoViewControllerDelegate.swift */,
+				D00B66701E0B6E2C00BC7C14 /* Main.storyboard */,
+				D0C90CD91E0A165A000E7422 /* Assets.xcassets */,
+				D0C90CDB1E0A165A000E7422 /* LaunchScreen.storyboard */,
+				D0C90CDE1E0A165A000E7422 /* Info.plist */,
+				D0C90CD61E0A165A000E7422 /* lumenati.xcdatamodeld */,
+				D00B666E1E0B365300BC7C14 /* LoginViewControllerDelegate.swift */,
+				D048155F1E0CADC00089094E /* CancelButtonDelegate.swift */,
+				D00B66721E0B7C5A00BC7C14 /* User.swift */,
+				D00B66741E0B807E00BC7C14 /* Marker.swift */,
+				D0336DA21E0CE3C700B273FB /* Group.swift */,
+			);
+			path = lumenati;
+			sourceTree = "<group>";
+		};
+		DFCEE3B2E9E80F64DCFD24DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1B94C6BC785E6A7964A79EB /* Pods-lumenati.debug.xcconfig */,
+				7FF4410290CE34D175C2D405 /* Pods-lumenati.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0C90CCB1E0A1659000E7422 /* lumenati */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C90CE11E0A165A000E7422 /* Build configuration list for PBXNativeTarget "lumenati" */;
+			buildPhases = (
+				CA401733D17E8CED3DEBD218 /* [CP] Check Pods Manifest.lock */,
+				D0C90CC81E0A1659000E7422 /* Sources */,
+				D0C90CC91E0A1659000E7422 /* Frameworks */,
+				D0C90CCA1E0A1659000E7422 /* Resources */,
+				FBB8EAF69E12BDC219F798AB /* [CP] Embed Pods Frameworks */,
+				04D25FABD71398C75B8F06CF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lumenati;
+			productName = lumenati;
+			productReference = D0C90CCC1E0A165A000E7422 /* lumenati.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0C90CC41E0A1659000E7422 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Justin Chan";
+				TargetAttributes = {
+					D0C90CCB1E0A1659000E7422 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = XH5Q22L9KQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D0C90CC71E0A1659000E7422 /* Build configuration list for PBXProject "lumenati" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0C90CC31E0A1659000E7422;
+			productRefGroup = D0C90CCD1E0A165A000E7422 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0C90CCB1E0A1659000E7422 /* lumenati */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0C90CCA1E0A1659000E7422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00B66711E0B6E2C00BC7C14 /* Main.storyboard in Resources */,
+				D0336DA11E0CDFD800B273FB /* Default-568h@2x.png in Resources */,
+				D0C90CDD1E0A165A000E7422 /* LaunchScreen.storyboard in Resources */,
+				D0C90CDA1E0A165A000E7422 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04D25FABD71398C75B8F06CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lumenati/Pods-lumenati-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA401733D17E8CED3DEBD218 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBB8EAF69E12BDC219F798AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lumenati/Pods-lumenati-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0C90CC81E0A1659000E7422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C90CD21E0A165A000E7422 /* LogInViewController.swift in Sources */,
+				D0C90CD01E0A165A000E7422 /* AppDelegate.swift in Sources */,
+				D0336DA91E0CFD9100B273FB /* CustomMarkerTableViewCell.swift in Sources */,
+				D0336D9F1E0CBB4800B273FB /* MyMapViewController.swift in Sources */,
+				D0336DA31E0CE3C700B273FB /* Group.swift in Sources */,
+				D048155E1E0CAB060089094E /* MarkerInfoViewControllerDelegate.swift in Sources */,
+				D00B66731E0B7C5A00BC7C14 /* User.swift in Sources */,
+				D04815601E0CADC00089094E /* CancelButtonDelegate.swift in Sources */,
+				D0C90CD81E0A165A000E7422 /* lumenati.xcdatamodeld in Sources */,
+				D00B66691E0B157A00BC7C14 /* MapViewController.swift in Sources */,
+				D00B666F1E0B365300BC7C14 /* LoginViewControllerDelegate.swift in Sources */,
+				D048155C1E0CA8110089094E /* MarkerInfoViewController.swift in Sources */,
+				D0336DA71E0CEDEB00B273FB /* CustomGroupTableViewCell.swift in Sources */,
+				D00B66751E0B807E00BC7C14 /* Marker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0C90CDB1E0A165A000E7422 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C90CDC1E0A165A000E7422 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0C90CDF1E0A165A000E7422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0C90CE01E0A165A000E7422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0C90CE21E0A165A000E7422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1B94C6BC785E6A7964A79EB /* Pods-lumenati.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XH5Q22L9KQ;
+				INFOPLIST_FILE = lumenati/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinchan.lumenati;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D0C90CE31E0A165A000E7422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FF4410290CE34D175C2D405 /* Pods-lumenati.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XH5Q22L9KQ;
+				INFOPLIST_FILE = lumenati/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinchan.lumenati;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0C90CC71E0A1659000E7422 /* Build configuration list for PBXProject "lumenati" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C90CDF1E0A165A000E7422 /* Debug */,
+				D0C90CE01E0A165A000E7422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C90CE11E0A165A000E7422 /* Build configuration list for PBXNativeTarget "lumenati" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C90CE21E0A165A000E7422 /* Debug */,
+				D0C90CE31E0A165A000E7422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0C90CD61E0A165A000E7422 /* lumenati.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0C90CD71E0A165A000E7422 /* lumenati.xcdatamodel */,
+			);
+			currentVersion = D0C90CD71E0A165A000E7422 /* lumenati.xcdatamodel */;
+			path = lumenati.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0C90CC41E0A1659000E7422 /* Project object */;
+}
