@@ -171,6 +171,8 @@ class MapViewController: UIViewController, CancelButtonDelegate, UITableViewDele
                 
                 self.markers.append(Marker(_id: idSave, title: titleSave, address: addressSave, category: categorySave, description: descriptionSave, url: urlSave, latitude: Float(latitudeSave), longitude: Float(longitudeSave)))
             }
+            
+            
         } else {
             print("No session user")
         }
